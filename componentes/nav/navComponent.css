@@ -1,0 +1,34 @@
+.nav{
+background-color: rgb(197, 197, 197);
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    border-top: 2px solid black;
+    position: fixed;
+}
+
+.nav div {
+    height: 90px;
+    width: 90px;
+    background-color: rgba(156, 156, 226, 0.742);
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    border: 2px solid black;
+    transition: all 0.3s ease;
+}
+
+.nav div:hover{
+    background-color: rgba(120, 120, 200, 0.9);
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+.nav img{
+    width: 70%;
+}
